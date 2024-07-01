@@ -1,0 +1,19 @@
+{
+  "page": "https://www.latlong.net/",
+  "email": "jmontero0590@gmail.com ",
+  "pwd": "asdfg12345",
+  "place": {
+    "naranjo": {
+      "name": "Naranjo",
+      "latitude": "10.114100",
+      "longitude": "-84.386497"
+    },
+    "london": {
+      "name": "London, UK",
+      "latitude": "51.507351",
+      "longitude": "-0.127758"
+    }
+  },
+  "title":"Latitude and Longitude Finder",
+  "description": "Latitude and Longitude are the units that represent the coordinates at geographic coordinate system. To make a search, use the name of a place, city, state, or address, or click the location on the map to find lat long coordinates."
+}
