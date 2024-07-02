@@ -1,0 +1,14 @@
+{
+  "apiurl": "https://demoqa.com/BookStore/v1",
+  "booksarray": "Books Response is an array",
+  "responsecodes": {
+    "correct": 200,
+    "badrequest": 400
+  },
+  "bodytitle": "Git Pocket Guide",
+  "bodyauthor": "Richard E. Silverman",
+  "bodyerrorcode": "1205",
+  "bodyerrormessage": "ISBN supplied is not available in Books Collection!",
+  "bookisbn": "9781449325862",
+  "bookwrongisbn": "9781449325811"
+}

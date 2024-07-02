@@ -1,9 +1,9 @@
 /// <reference types="cypress" />
 
-import { home } from "../pages/home.page";
+import { home } from "../../pages/home.page";
 const homePages = new home();
 
-let testdata:any;
+let testdata: any;
 beforeEach(function () {
   homePages.login(testdata.page);
 });
@@ -32,6 +32,4 @@ describe("Happy Path Tests", () => {
       testdata.place.naranjo.longitude
     );
   });
-
-
 });

@@ -13,10 +13,10 @@ export class home {
     password: () => cy.get("#password1"),
     loginbuttonmenu: () => cy.get("a").contains("User Login").click(),
     loginbutton: () => cy.get("button").contains("Login").click(),
-    homebutton: ()=> cy.get("a[title='Lat Long Finder']").click(),
+    homebutton: () => cy.get("a[title='Lat Long Finder']").click(),
   };
 
-  loginWithTestUser(email:string,pwd:string){
+  loginWithTestUser(email: string, pwd: string) {
     this.elements.loginbuttonmenu();
     this.elements.username().type(email);
     this.elements.password().type(pwd);
