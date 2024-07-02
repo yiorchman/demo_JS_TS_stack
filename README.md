@@ -24,7 +24,9 @@ Follow this steps to use cypress in the project
 
    ```bash
     npx cypress open
-     
+```
+
+Instructions for the project structure:
 
 Choose a browser and click on a test file to run it interactively.
 For this project specifically, there are two types of tests, api an ui tests.
